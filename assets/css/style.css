@@ -41,7 +41,7 @@ ol {
     position: fixed;
     top: 0;
     left: 0;
-    height: 5px;
+    height: 2rem;
     width: 0%;
     background-color: #9034AA;
 }
@@ -57,7 +57,7 @@ ol {
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
     font-size: 2rem;
-   
+
     display: flex;
     justify-content: center;
     align-content: center;
@@ -71,22 +71,22 @@ ol {
     from {
       opacity: 0;
     }
-  
+
     to {
       opacity: 1;
     }
 }
-  
+
 @keyframes fadeIn {
     from {
       opacity: 0;
     }
-  
+
     to {
       opacity: 1;
     }
 }
-  
+
   .fadeIn {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
